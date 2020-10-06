@@ -146,6 +146,7 @@ a {
   font-family: "Montserrat", sans-serif;
   background: #eee;
   border-bottom: 3px solid #cfcfcf;
+  transition: all 0.3s;
 }
 .button--success {
   background: green;
@@ -164,6 +165,12 @@ a {
   color: #fff;
   font-weight: bold;
   border-bottom: 3px solid #0070db;
+}
+.button--disabled {
+  filter: grayscale(0.7);
+}
+.button:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */
