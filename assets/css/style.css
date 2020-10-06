@@ -173,4 +173,25 @@ a {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+.alert {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.alert--success {
+  background: rgba(0, 128, 0, 0.3);
+  border: 1px solid rgba(0, 128, 0, 0.4);
+  color: #004d00;
+}
+.alert--danger {
+  background: rgba(139, 0, 0, 0.3);
+  border: 1px solid rgba(139, 0, 0, 0.4);
+  color: #580000;
+}
+.alert--warning {
+  background: rgba(255, 140, 0, 0.3);
+  border: 1px solid rgba(255, 140, 0, 0.4);
+  color: #cc7000;
+}
+
 /*# sourceMappingURL=style.css.map */

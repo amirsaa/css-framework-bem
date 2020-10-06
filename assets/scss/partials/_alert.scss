@@ -1,0 +1,23 @@
+.alert {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    &--success {
+        background: rgba($color: green, $alpha: 0.3);
+        border: 1px solid rgba($color: green, $alpha: 0.4);
+        color: darken($color: green, $amount: 10)
+    }
+
+    &--danger {
+        background: rgba($color: darkred, $alpha: 0.3);
+        border: 1px solid rgba($color: darkred, $alpha: 0.4);
+        color: darken($color: darkred, $amount: 10)
+    }
+
+    &--warning {
+        background: rgba($color: darkorange, $alpha: 0.3);
+        border: 1px solid rgba($color: darkorange, $alpha: 0.4);
+        color: darken($color: darkorange, $amount: 10)
+    }
+}
