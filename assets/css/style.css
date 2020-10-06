@@ -9,6 +9,11 @@ body {
   margin: 0 auto;
 }
 
+hr {
+  border: none;
+  border-bottom: 2px dashed #ccc;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,6 +45,21 @@ a {
 }
 .menu__item--white {
   color: #fff;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+.card__header {
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+.card__header h3 {
+  margin: 0;
+  padding-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    border-bottom: 3px solid rgba($color: #000000, $alpha: 0.1);
+
+    &__header {
+        text-align: left;
+        border-bottom: 1px solid #eee;
+
+        h3 {
+            margin: 0;
+            padding-bottom: 0.5rem;
+        }
+    }
+}
