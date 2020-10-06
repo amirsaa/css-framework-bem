@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+
+    @for $i from 1 through 6 {
+        &__#{$i} {
+            grid-template-columns: repeat(#{$i}, 1fr);
+
+            div {
+                margin: 0.5rem;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

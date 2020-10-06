@@ -18,6 +18,82 @@ a {
   text-decoration: none;
 }
 
+.grid {
+  display: grid;
+}
+.grid__1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid__1 div {
+  margin: 0.5rem;
+}
+.grid__1 div:first-child {
+  margin-left: 0;
+}
+.grid__1 div:last-child {
+  margin-right: 0;
+}
+.grid__2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid__2 div {
+  margin: 0.5rem;
+}
+.grid__2 div:first-child {
+  margin-left: 0;
+}
+.grid__2 div:last-child {
+  margin-right: 0;
+}
+.grid__3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid__3 div {
+  margin: 0.5rem;
+}
+.grid__3 div:first-child {
+  margin-left: 0;
+}
+.grid__3 div:last-child {
+  margin-right: 0;
+}
+.grid__4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid__4 div {
+  margin: 0.5rem;
+}
+.grid__4 div:first-child {
+  margin-left: 0;
+}
+.grid__4 div:last-child {
+  margin-right: 0;
+}
+.grid__5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid__5 div {
+  margin: 0.5rem;
+}
+.grid__5 div:first-child {
+  margin-left: 0;
+}
+.grid__5 div:last-child {
+  margin-right: 0;
+}
+.grid__6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid__6 div {
+  margin: 0.5rem;
+}
+.grid__6 div:first-child {
+  margin-left: 0;
+}
+.grid__6 div:last-child {
+  margin-right: 0;
+}
+
 .menu {
   background: #00b7ff;
   border-bottom: 3px solid #00a5e6;
