@@ -1,0 +1,28 @@
+body {
+  background: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu {
+  background: #00b7ff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.menu__body {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__item {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */
