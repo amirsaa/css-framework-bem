@@ -23,6 +23,16 @@ a {
 }
 .menu__item {
   display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.menu__item--active {
+  background: rgba(0, 0, 0, 0.1);
+  font-weight: 900;
+}
+.menu__item--white {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
