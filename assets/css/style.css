@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&display=swap");
 body {
   background: #eee;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -13,6 +15,7 @@ a {
 
 .menu {
   background: #00b7ff;
+  border-bottom: 3px solid #00a5e6;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -26,6 +29,10 @@ a {
   margin-right: 1rem;
   padding: 0.5rem;
   border-radius: 3px;
+  transition: all 0.3s;
+}
+.menu__item:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
 .menu__item--active {
   background: rgba(0, 0, 0, 0.1);
