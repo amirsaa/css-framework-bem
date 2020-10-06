@@ -1,0 +1,30 @@
+.button {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    background: #eee;
+    border-bottom: 3px solid darken($color: #eee, $amount: 12);
+
+    &--success {
+        background: green;
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 3px solid darken($color: green, $amount: 7);
+    }
+
+    &--danger {
+        background: darkred;
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 3px solid darken($color: darkred, $amount: 7);
+    }
+
+    &--info {
+        background: rgb(0, 130, 255);
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 3px solid darken($color: rgb(0, 130, 255), $amount: 7);
+    }
+}

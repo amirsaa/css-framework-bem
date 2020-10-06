@@ -138,4 +138,32 @@ a {
   padding-bottom: 0.5rem;
 }
 
+.button {
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  background: #eee;
+  border-bottom: 3px solid #cfcfcf;
+}
+.button--success {
+  background: green;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #005c00;
+}
+.button--danger {
+  background: darkred;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #670000;
+}
+.button--info {
+  background: #0082ff;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #0070db;
+}
+
 /*# sourceMappingURL=style.css.map */
